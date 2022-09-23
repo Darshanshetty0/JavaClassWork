@@ -18,11 +18,23 @@ class largestamong3 {
         System.out.println("Enter the third number:");
         c = sc.nextInt();
 
-        temp = a > b ? a : b;
+        if ((a == b) && (b == c)) {
+            System.out.println("Entered numbers are equal.");
+        } else {
+            temp = a > b ? a : b;
 
-        largest = c > temp ? c : temp;
+            largest = c > temp ? c : temp;
 
-        System.out.println("The largest number is: " + largest);
-        sc.close();
+            System.out.println("The largest number is: " + largest);
+            sc.close();
+        }
+
+        if ((a >= 0) && (b >= 0) && (c >= 0)) {
+            System.out.println("Entered numbers are all positive.");
+        } else if ((a < 0) && (b < 0) && (c < 0)) {
+            System.out.println("Entered numbers are all negative numbers.");
+        } else {
+            System.out.println("Entered numbers are mixed numbers.");
+        }
     }
 }
