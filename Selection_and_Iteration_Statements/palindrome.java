@@ -1,3 +1,5 @@
+package Selection_and_Iteration_Statements;
+
 public class palindrome {
     public static void main(String[] args) {
         int r, sum = 0, temp;
