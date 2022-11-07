@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 //multi-level inheritance
+=======
+>>>>>>> fbd98ecb0c4fc2c5cd8d47a222d954ee253bd1ef
 class Person {
     String name, address;
 
