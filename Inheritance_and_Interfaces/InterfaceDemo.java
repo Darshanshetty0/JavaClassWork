@@ -1,25 +1,37 @@
-//interface
-interface One {
+package Inheritance_and_Interfaces;
+
+interface One
+
+{
+
     public static final double pi = 3.14;
+
 }
 
 interface Two {
-    public static final double radius = 3.14;
+
+    public static final double radius = 10.0;
+
 }
 
 interface Three {
+
     double area();
+
 }
 
 class Circle implements One, Two, Three {
+
     public double area() {
+
         return (pi * radius * radius);
     }
 }
 
-public class MultipleInterface {
+public class InterfaceDemo {
     public static void main(String args[]) {
-        Circle cl = new Circle();
-        System.out.println("Circle Area is " + cl.area());
+        Circle c1 = new Circle();
+
+        System.out.println("Circle Area is " + c1.area());
     }
 }

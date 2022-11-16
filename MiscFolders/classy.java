@@ -1,3 +1,4 @@
+package MiscFolders;
 // find odd or even using methods
 
 class classy {

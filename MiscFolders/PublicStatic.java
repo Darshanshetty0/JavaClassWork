@@ -1,3 +1,5 @@
+package MiscFolders;
+
 //static
 public class PublicStatic {
     static int x = 10;

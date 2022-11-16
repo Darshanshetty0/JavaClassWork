@@ -1,3 +1,5 @@
+package MiscFolders;
+
 class EmployeeDetail {
     int id;
     String name;

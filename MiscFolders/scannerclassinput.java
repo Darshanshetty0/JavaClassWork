@@ -1,3 +1,5 @@
+package MiscFolders;
+
 import java.util.Scanner;
 
 public class scannerclassinput {
