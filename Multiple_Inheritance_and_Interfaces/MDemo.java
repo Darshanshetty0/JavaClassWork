@@ -1,3 +1,5 @@
+//7B
+
 package Multiple_Inheritance_and_Interfaces;
 
 class Thread1 extends Thread {

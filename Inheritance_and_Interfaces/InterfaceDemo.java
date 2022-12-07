@@ -1,3 +1,5 @@
+//4B
+
 package Inheritance_and_Interfaces;
 
 interface One
